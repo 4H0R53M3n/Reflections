@@ -1,0 +1,33 @@
+How did viewing a diff between two versions of a file help you see the bug that
+	was introduced?
+
+    	-by using diff it only brings up changes in the file. That way i only needed to sift through a few lines versus a thousand
+
+How could having easy access to the entire history of a file make you a more
+	efficient programmer in the long term?
+
+        -a lot of the time when you're creating projects you'll end up changing a section of code to test a different data construct or function. Without version control you have to comment out or copy/paste the old sections of code into some backup text file in case you need to rereference that code. Diff with version control allows you to be carefree when testing code as you can easily revert back to the original file.
+
+What do you think are the pros and cons of manually choosing when to create a
+	commit, like you do in Git, vs having versions automatically saved, like Google
+	docs does?
+
+	-The only con is that you might end up losing a bit of code due to power outage or a frozen machine. The pros are mostly to do with the amount of saved data and the amount of versions you'll need to sift through in order to find old versions.
+
+Why do you think some version control systems, like Git, allow saving multiple
+	files in one commit, while others, like Google Docs, treat each file separately?
+
+	-Usually when changing some function/data construct the change will affect multiple files. It's easier to keep track of one change across multiple files with one commit block versus a commit block for each individual file. 
+
+How can you use the commands git log and git diff to view the history of files?
+
+	-git log will let you check your commit history while diff/ing those commit will allow you to quickly view the major changes between the commits.
+
+How might using version control make you more confident to make changes that
+	could break something?
+
+	-with an active version control you don't need to worry about testing or messing with code. you can have a sloppy code without fear of losing any real work.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+	-I'll end up using git for udacity projects as well as any individual projects i'd like to work on.
