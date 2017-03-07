@@ -28,5 +28,8 @@ How do the diagrams help you visualize the branch structure?
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+	-Since the branches are merging into one every commit from both of those branches are now viewable from the single master branch. The result is adding the code from both branches after resolving merge conflicts.
+
+
 What are the pros and cons of Gits automatic merging vs. always doing merges
 manually?
