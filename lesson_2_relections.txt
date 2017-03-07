@@ -17,7 +17,13 @@ change?
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+	-branches are useful when developing experimental code or when you're developing a new piece of software but want to keep a stable version around on the master branch
+
+
 How do the diagrams help you visualize the branch structure?
+
+	-Using a diagram allows you to see when a branch diverted from the master and what has been changed in each after a branch has been created
+
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
